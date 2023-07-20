@@ -1,0 +1,76 @@
+.card-hover {
+  cursor: pointer;
+
+  .periodo {
+    transition: 0.8s;
+  }
+
+  .conheca {
+    transition: 0.8s;
+    margin-bottom: -25px;
+    opacity: 0;
+  }
+
+  &:hover {
+    .conheca {
+      margin-top: 0;
+      opacity: 1;
+    }
+
+    .periodo {
+      display: none;
+
+      margin-top: -25px;
+      opacity: 0;
+    }
+  }
+
+  &.active {
+    .conheca {
+      transition: 0.3s;
+      margin-bottom: -25px;
+      opacity: 0;
+    }
+
+    .periodo {
+      margin-top: 25px;
+      opacity: 1;
+    }
+
+    .mobile-know {
+      display: none !important;
+    }
+  }
+}
+
+.footer-integral {
+  .desktop {
+    svg {
+      transition: 0.3s;
+      margin-right: -20px;
+      opacity: 0;
+    }
+  }
+
+  &:hover {
+    .desktop {
+      text-decoration: underline;
+
+      svg {
+        margin-right: 0;
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.priodo-parcial,
+.priodo-integral {
+  @media (max-width: 1024px) {
+    display: none;
+
+    &.mobile-active {
+      display: block;
+    }
+  }
+}

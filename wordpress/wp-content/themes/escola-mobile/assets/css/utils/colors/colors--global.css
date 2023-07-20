@@ -1,0 +1,9 @@
+/* sass-lint:disable hex-notation -- color valuess have to be defined somewhere...
+
+This is a two-tiered abstraction variable system.
+The descriptive variables in this file are used as values
+for the functional variables set in `_colors--custom.scss`.
+The variables in this file are used to easily identify colors
+by name, like red or blue. */
+/* Grayscale, from dark to light */
+/*# sourceMappingURL=colors--global.css.map */

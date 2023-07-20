@@ -1,0 +1,300 @@
+.owl-theme .owl-dots .owl-dot span {
+  border-radius: 0 !important;
+  width: 60px !important;
+  height: 5px !important;
+}
+
+.owl-theme .owl-dots .owl-dot {
+  &:focus {
+    outline: none !important;
+  }
+}
+
+.carousel-one-column{
+  .owl-nav {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .owl-stage-outer {
+    overflow: visible !important;
+  }
+}
+
+.owl-carousel {
+  .owl-nav {
+    display: flex;
+    align-items: center;
+
+    &.disabled {
+      display: none !important;
+    }
+
+    .disabled {
+      opacity: 1 !important;
+    }
+
+    button {
+      outline: none !important;
+      height: 55px !important;
+      width: 55px !important;
+      border: 3px solid #2c2c2c !important;
+      background-color: #2c2c2c !important;
+      border-radius: 30px !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      stroke: #fff !important;
+      transition: 0.3s;
+
+      &:hover {
+        background-color: #fff !important;
+        border-color: #fff !important;
+
+        svg {
+          stroke: #2c2c2c !important;
+        }
+      }
+
+      &.disabled {
+        background: none !important;
+
+        svg {
+          stroke: #2c2c2c !important;
+        }
+      }
+    }
+  }
+}
+
+//OWL-TREE NAVIGATION
+.owl-tree {
+  .owl-nav {
+    @media (max-width: 1024px) {
+      opacity: 0 !important;
+      display: none !important;
+    }
+  }
+
+  .owl-dots {
+    @media (min-width: 1025px) {
+      opacity: 0 !important;
+      display: none !important;
+    }
+  }
+}
+
+.courses {
+  .owl-nav {
+    position: absolute;
+    margin-top: -250px;
+    margin-right: 40px;
+    top: 0;
+    right: 0;
+
+    @media (max-width: 500px) {
+      margin-top: -300px;
+    }
+  }
+}
+
+#horizontal-carousel {
+  .owl-nav {
+    display: flex !important;
+    justify-content: end !important;
+    margin-top: 30px;
+    padding: 0 40px;
+
+    button {
+      border: 3px solid #fff !important;
+      background-color: #fff !important;
+      stroke: #fff !important;
+
+      svg {
+        stroke: #2c2c2c;
+      }
+
+      &.disabled {
+        background: none !important;
+
+        svg {
+          stroke: #fff !important;
+        }
+      }
+    }
+  }
+}
+
+.education-carousel {
+  .owl-nav {
+    position: absolute;
+    margin-top: -60px;
+    margin-right: 30px;
+    top: 0;
+    right: 0;
+  }
+}
+
+.releated-posts {
+  .owl-prev.disabled {
+    opacity: 0 !important;
+  }
+
+  .owl-next.disabled {
+    opacity: 0 !important;
+  }
+
+  .owl-stage {
+    padding-left: 0 !important;
+  }
+
+  .owl-nav {
+    display: flex;
+    justify-content: end;
+  }
+
+  .owl-stage-outer {
+    overflow: visible !important;
+  }
+}
+
+.ensino-fundamental-carousel {
+  .owl-dots {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 380px;
+  }
+
+  .owl-nav {
+    @media (max-width: 1024px) {
+      position: absolute;
+      margin-top: -80px;
+      top: 0;
+      right: 0;
+    }
+  }
+}
+
+.imprensa-carousel {
+  .owl-stage {
+    padding-left: 0 !important;
+  }
+
+  .owl-stage-outer {
+    overflow: visible !important;
+  }
+}
+
+.school-parts {
+  .owl-stage-outer {
+    overflow: visible !important;
+  }
+}
+
+.owl-directors {
+  @media (min-width: 1024px) {
+    .owl-prev.disabled {
+      opacity: 0 !important;
+    }
+
+    .owl-next.disabled {
+      opacity: 0 !important;
+    }
+  }
+
+  .owl-nav {
+    margin: 20px 0;
+    justify-content: center;
+
+    @media (min-width: 1024px) {
+      justify-content: space-between !important;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: calc(50% - 50px);
+
+      .owl-prev {
+        margin-left: -80px !important;
+      }
+
+      .owl-next {
+        margin-right: -80px !important;
+      }
+    }
+  }
+}
+
+.owl-page {
+  $value: attr(data-rows);
+
+  .owl-nav {
+    justify-content: center !important;
+    position: relative;
+    margin-top: -100px;
+    z-index: 20;
+
+    button {
+      @media (max-width: 764px) {
+        width: 40px !important;
+        height: 40px !important;
+      }
+
+      svg {
+        width: 25px !important;
+        height: 25px !important;
+      }
+    }
+  }
+
+  .owl-dots {
+    margin-top: -65px;
+
+    @media (max-width: 764px) {
+      margin-top: -50px;
+    }
+
+    .owl-dot {
+      span {
+        z-index: 20;
+        position: relative;
+        border-radius: 56px !important;
+        width: 56px !important;
+        height: 56px !important;
+        border: 3px solid #2c2c2c !important;
+        background-color: transparent !important;
+
+        @media (max-width: 764px) {
+          width: 40px !important;
+          height: 40px !important;
+        }
+      }
+
+      &.active {
+        span {
+          background-color: #fff !important;
+          border: 3px solid #fff !important;
+        }
+      }
+    }
+  }
+}
+
+.courses-carousel {
+  .owl-stage-outer {
+    overflow: visible !important;
+  }
+  .owl-nav{
+    padding-top: 30px;
+    position: relative;
+    display: flex !important;
+    justify-content: end !important;
+    margin: 0 !important;
+    margin-right: 0 !important;
+  }
+}

@@ -1,0 +1,47 @@
+#policy-page {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+
+  p,
+  pre {
+    margin-bottom: 15px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: 600;
+    line-height: 100%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  .wp-block-preformatted {
+    font-family: 'Rubik', sans-serif !important;
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+  ul {
+    list-style: disc;
+    margin-left: 30px;
+
+    li {
+      margin-bottom: 15px;
+    }
+  }
+}

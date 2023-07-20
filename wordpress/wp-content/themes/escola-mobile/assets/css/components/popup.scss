@@ -1,0 +1,122 @@
+.popup-main {
+    background: #000000a7;
+
+    height: 100vh;
+    width: 100%;
+
+    position: fixed;
+
+    top: 0;
+    
+    overflow: hidden;
+    z-index: 999;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+   .popup-item {
+    background: #193C6C;
+
+    border-radius: 8px;
+    
+    height: 550px;
+    width: 600px;
+    @media screen and (max-width: 568px) {
+        height: 472px;
+        width: 100%;
+    }
+
+    position: relative;
+
+    .my-16 {
+        top: -8px;
+        right: 16px;
+    }
+
+        .popup-item_blue {
+            background-color: #fff;
+
+            border-radius: 0px 100px 0px 10px;
+
+            height: 500px;
+            width: 550px; 
+            @media screen and (max-width: 568px) {
+                height: 100%;
+                width: 100%;
+
+                padding: 24px 12px;
+            }
+
+            top: 50px !important;
+            position: relative;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            padding: 24px 56px;
+
+            h6 {
+                color: #0EAD69;
+
+                font-family: "Rubik", sans-serif;
+                font-weight: 700;
+                font-size: 24px;
+                
+                text-transform: uppercase;
+
+                @media screen and (max-width: 568px) {
+                    font-size: 16px;
+                }
+            }
+
+            h2 {
+                color: #193C6C;
+
+                font-family: "Rubik", sans-serif;
+                font-weight: 400;
+                font-size: 48px;
+
+                margin-top: 8px;
+
+                line-height: 110%;
+
+                @media screen and (max-width: 568px) {
+                    font-size: 36px;
+                }
+            }
+
+            p {
+                color: #2C2C2C;
+
+                font-size: 28px;
+                font-weight: bold;
+
+                margin-left: 8px;
+
+                @media screen and (max-width: 568px) {
+                    font-size: 20px;
+
+                    margin-top: 8px;
+                }
+            }
+
+            .mt-24p {
+                margin-top: 28px;
+            }
+
+            .info-date {
+                display: flex;
+                align-items: center;
+
+                margin-top: 16px;
+
+                @media screen and (max-width: 568px) {
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+            }
+        }
+   }
+}

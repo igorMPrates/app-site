@@ -1,0 +1,57 @@
+/* sass-lint:disable hex-notation -- color valuess have to be defined somewhere...
+
+ This is a two-tiered abstraction variable system.
+ The descriptive variables, set in `colors--global.scss` are
+ the first abstraction layer.
+ The functional variables in this file have names related to their use,
+ but the color names in their values are easily recognisable. */
+
+/* Brand */
+$c-brand:                  $c-paradiso;
+$c-brand--dark:            $c-tuna;
+$c-brand--highlight:       $c-persian-green;
+
+/* Containers */
+$c-bg:                     $c-white;
+$c-bg-container:           $c-lumen-95;
+
+/* Social */
+$c-social:                 $c-brand--dark;
+$c-social--header:         $c-white;
+$c-social--content:        $c-social;
+$c-social--footer:         $c-social--header;
+
+/* Borders and Shadows */
+$c-border:                 $c-lumen-95;
+$c-border--dark:           $c-lumen-50;
+$c-shadow:                 transparentize($c-black, 0.3);
+
+/* Text */
+$c-text:                   $c-lumen-10;
+$c-text--dark:             $c-black;
+$c-text--dark-soft:        $c-lumen-20;
+$c-text--light:            $c-gray;
+$c-text--highlight:        transparentize($c-brand, 0.3);
+$c-text--invert:           $c-white;
+$c-text--placeholder:      $c-lumen-20;
+
+$c-neutral:                $c-gray;
+$c-positive:               $c-attention-green;
+$c-negative:               $c-attention-red;
+$c-alert:                  $c-negative;
+
+/* links */
+$c-link:                   $c-brand;
+$c-visited:                $c-text--dark;
+$c-hover:                  $c-text--dark;
+$c-focus:                  $c-hover;
+$c-active:                 $c-hover;
+
+/* Messages */
+$c-message-error-bg:       mix($c-negative, $c-white, 8%);
+$c-message-error-text:     $c-negative;
+$c-message-error-action:   mix($c-negative, $c-white, 49%);
+
+$c-message-success-bg:     mix($c-attention-green, $c-white, 8%);
+$c-message-success-text:   $c-attention-green;
+$c-message-success-action: mix($c-attention-green, $c-white, 49%);

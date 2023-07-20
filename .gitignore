@@ -1,0 +1,8 @@
+.env
+.env.development
+.env.production
+.env.staging
+
+etc
+wordpress/wp-content/themes/escola-mobile/node_modules
+wordpress/wp-content/themes/escola-mobile/dist

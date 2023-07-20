@@ -1,0 +1,9 @@
+/* This file contains variables for global actributes (that are not colors or typography related), such as borders, round-corners, etc */
+
+:root {
+  --base-font-size: 18px;
+}
+
+$global-font-size: 18px;
+$f-base-size:      $global-font-size;
+$border-radius:    4px;

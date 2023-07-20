@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//www.escolamobile.com.br/main-sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://www.escolamobile.com.br/category/home/</loc>
+	</url>
+	<url>
+		<loc>https://www.escolamobile.com.br/category/ensino-medio/</loc>
+	</url>
+	<url>
+		<loc>https://www.escolamobile.com.br/category/educacao-infantil/</loc>
+	</url>
+	<url>
+		<loc>https://www.escolamobile.com.br/category/ensino-fundamental-1/</loc>
+	</url>
+	<url>
+		<loc>https://www.escolamobile.com.br/category/ensino-fundamental-2/</loc>
+	</url>
+	<url>
+		<loc>https://www.escolamobile.com.br/category/periodo-parcial/</loc>
+	</url>
+	<url>
+		<loc>https://www.escolamobile.com.br/category/periodo-integral/</loc>
+	</url>
+</urlset>

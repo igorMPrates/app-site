@@ -1,0 +1,622 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.arrow-hover {
+  svg {
+    transition: 0.3s;
+    margin-right: -20px;
+    opacity: 0;
+    margin-left: 15px;
+  }
+
+  &:hover {
+    p {
+      text-decoration-line: underline;
+      text-decoration-thickness: 2px;
+    }
+
+    svg {
+      margin-right: 0;
+      opacity: 1;
+      display: block;
+    }
+  }
+}
+
+.play-video-button {
+  &:hover {
+    opacity: 50%;
+  }
+}
+
+.multiply {
+  mix-blend-mode: multiply;
+}
+
+.social-links {
+  svg:hover {
+    stroke: #2c2c2c;
+    stroke-width: 2px;
+  }
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+.mt-28 {
+  margin-top: 28px !important;
+}
+
+.mt-36 {
+  margin-top: 36px !important;
+}
+
+.mb-72 {
+  margin-bottom: 72px;
+}
+
+.bg-blue {
+  background-color: #193c6c !important;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.text-colorH3 {
+  color: #fff;
+}
+
+.fontSize16 {
+  font-size: 16px;
+}
+
+.fontSize20 {
+  font-size: 20px;
+}
+
+//
+
+.alignCenterItems {
+  align-items: center;
+  display: flex;
+}
+
+// HOME - ENEM, PISA
+
+.hover-text {
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    .title-text {
+      font-weight: 500 !important;
+    }
+  }
+
+  .arrow-item {
+    transition: 0.3s;
+  }
+
+  &.active {
+    color: #2f72cd !important;
+    transition: 0.3s;
+
+    .arrow-item {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+// PAGE ENEM
+
+.content {
+  padding: 24px 12px;
+
+  h1 {
+    @media screen and (max-width: 568px) {
+      font-size: 32px !important;
+    }
+  }
+}
+
+.table-enem {
+  background: #fff;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 1024px;
+  margin: 0 auto;
+
+  margin-bottom: 64px;
+
+  padding: 32px 24px;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column !important;
+
+    padding: 32px 12px;
+  }
+}
+
+.table-item__information {
+  width: 500px;
+
+  @media screen and (max-width: 568px) {
+    width: 100%;
+  }
+}
+
+.table-item:nth-child(2) {
+  .table-item__flex {
+    background-color: #ffae1b;
+
+    border-radius: 20px 20px 0px 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    text-align: center;
+
+    padding: 12px 24px;
+
+    width: 100%;
+
+    @media screen and (max-width: 568px) {
+      margin-top: 24px;
+    }
+  }
+
+  .table-item__center {
+    background-color: #f5f5f1;
+
+    border-radius: 0px 0px 20px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    text-align: center;
+
+    padding: 24px 24px;
+
+    width: 100%;
+  }
+}
+
+.table-titleH2 {
+  color: #193c6c;
+
+  font-size: 40px;
+  font-weight: 400;
+
+  text-transform: uppercase;
+
+  line-height: 120%;
+
+  width: 50%;
+
+  @media screen and (max-width: 568px) {
+    font-size: 28px;
+  }
+}
+
+.table-titleH5 {
+  color: #2c2c2c;
+
+  font-size: 24px;
+  font-weight: 500;
+
+  @media screen and (max-width: 568px) {
+    font-size: 20px;
+  }
+}
+
+// CHAMADA QUE LEVARA PARA A PAGINA DE ESTUDE NA MOBILE
+
+.content-estudenamobile {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: flex-end !important;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+
+  padding: 0px 20px;
+}
+
+.estudenamobile-text40 {
+  width: 90%;
+
+  h2 {
+    font-size: 40px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 32px;
+    width: 100%;
+  }
+
+  line-height: 120%;
+}
+
+.w-700 {
+  width: 700px;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.mt-12 {
+  margin-top: 12px;
+}
+
+.line {
+  background: #514f5433;
+
+  height: 2px;
+
+  margin: 0 auto;
+}
+
+.py-48 {
+  padding: 48px 0px;
+}
+
+// PAGE PISA
+
+.table-pisa {
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+
+  max-width: 1024px;
+  margin: 0 auto;
+
+  margin-bottom: 64px;
+
+  padding: 32px 24px;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column !important;
+    align-items: center;
+
+    padding: 32px 12px;
+  }
+
+  @media screen and (max-width: 568px) {
+    display: none;
+  }
+}
+
+.table-item-pisa {
+  width: 100%;
+}
+
+.table-item-pisa__information {
+  width: 100%;
+}
+
+.table-item-pisa__information:nth-child(1) {
+  border-radius: 20px 20px 0px 0px;
+
+  padding: 8px 24px;
+
+  h3 {
+    color: #fff;
+
+    font-weight: bold;
+
+    text-align: center;
+  }
+}
+
+.table-item-pisa__information:nth-child(2) {
+  padding: 12px 24px;
+
+  text-align: center;
+}
+
+.table-item-pisa__information:nth-child(3) {
+  border-radius: 0px 0px 20px 20px;
+
+  font-weight: bold;
+
+  padding: 24px 24px;
+
+  text-align: center;
+}
+
+.background-branca {
+  background-color: #fff;
+}
+
+.df {
+  display: flex;
+
+  h3 {
+    width: calc(100% / 4);
+
+    @media screen and (max-width: 568px) {
+      height: 100%;
+
+      align-self: center;
+    }
+  }
+}
+
+.w-call100 {
+  width: calc(100% / 3);
+}
+
+.w-100p {
+  width: 100%;
+}
+
+.table-pisa_mobile {
+  display: none;
+
+  @media screen and (max-width: 568px) {
+    display: block;
+
+    justify-content: center;
+    flex-direction: column;
+
+    max-width: 1024px;
+    margin: 0 auto;
+
+    width: 100%;
+
+    padding: 24px 12px;
+  }
+
+  .table-pisa-item_mobile {
+    display: none;
+
+    @media screen and (max-width: 568px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      text-align: center;
+    }
+  }
+
+  .table-pisa-item-information_mobile {
+    display: none;
+
+    @media screen and (max-width: 568px) {
+      display: block;
+
+      h3 {
+        color: #fff;
+
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.title-pisa_mobile {
+  font-size: 18px;
+  font-weight: bold;
+
+  padding: 4px 0px;
+}
+
+.table-pisa-item-information_mobile {
+  padding: 10px 0px;
+
+  border-radius: 20px 20px 0px 0px;
+}
+
+.paddingTableMobile {
+  padding: 6px 0px;
+}
+
+.paddingWhite {
+  border-radius: 0px 0px 20px 20px;
+
+  padding: 6px 0px;
+}
+
+.marginTop8 {
+  margin-top: 8px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.textPisaTitleMobile {
+  color: #2c2c2c;
+
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Rubik", sans-serif;
+}
+
+.mr-100 {
+  margin-right: 100px !important;
+}
+
+.green {
+  color: #0ead69;
+}
+
+.ali-cen {
+  align-items: center;
+}
+
+.ali-center-df {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 20px;
+}
+
+.w-1280 {
+  max-width: 1280px;
+  margin: 0 auto;
+
+  padding: 0px 20px;
+}
+
+.width25 {
+  width: 25%;
+}
+
+.width50 {
+  width: 50%;
+
+  @media screen and (max-width: 991px) {
+    width: 100%;
+  }
+}
+
+.width75 {
+  width: 75%;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.lh-130 {
+  line-height: 130%;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+// TABLE MOBILE
+
+.table-none {
+  @media screen and (max-width: 568px) {
+    display: none !important;
+  }
+}
+
+.table-mobile__estudeMobile {
+  display: none;
+  @media screen and (max-width: 568px) {
+    display: block !important;
+
+    h6 {
+      font-weight: 900 !important;
+      font-size: 28px !important;
+    }
+  }
+}
+
+.table-mobile__Parcial {
+  @media screen and (max-width: 568px) {
+    background-color: #ffffff;
+
+    padding: 0px 0px 4px 0px;
+
+    border-radius: 20px;
+
+    p {
+      line-height: 100% !important;
+
+      font-weight: 400;
+      font-size: 14px;
+    }
+
+    .bg-month {
+      background-color: #f0f0f0;
+
+      color: #0ead69;
+
+      font-weight: 800;
+      font-size: 18px;
+
+      padding: 8px 0px;
+    }
+
+    .line-table {
+      background-color: #e6e6e6;
+
+      height: 1px;
+    }
+
+    .p-mt16 {
+      margin-top: 16px;
+    }
+
+    .p-mt24 {
+      margin-top: 24px;
+    }
+
+    .mb-12 {
+      margin-bottom: 12px;
+    }
+
+    .bor-radMonth {
+      border-radius: 20px 20px 0px 0px;
+    }
+
+    .boldFont {
+      font-weight: bold;
+    }
+  }
+}
+
+.border {
+  border: solid 2px red;
+}
+
+.centerContent {
+  display: flex;
+  justify-content: center;
+
+  margin: 0 auto;
+}
+
+.text-left {
+  text-align: left !important;
+
+  a {
+    background: #2c2c2c;
+    border-radius: 30px;
+
+    color: #fff;
+
+    padding: 10px 36px;
+
+    text-transform: uppercase;
+
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+.mt-12 {
+  margin-top: 12px;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
+.mt-48 {
+  margin-top: 48px;
+}
+
+.bold {
+  font-weight: bold;
+}

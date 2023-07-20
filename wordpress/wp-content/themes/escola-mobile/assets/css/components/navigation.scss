@@ -1,0 +1,12 @@
+.mobile-navigation {
+  @apply items-center justify-between;
+
+  li {
+    @apply text-4xl duration-300 cursor-pointer;
+
+    &.active,
+    &:hover {
+      @apply font-bold underline;
+    }
+  }
+}

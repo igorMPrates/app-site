@@ -1,0 +1,67 @@
+.item {
+  &.module {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    min-width: 280px;
+
+    @apply z-10 mb-48 bg-white overflow-hidden flex items-end;
+
+    &:not(.unclick) {
+      &:hover {
+        .text-area {
+          @apply bg-dark;
+        }
+
+        h2 {
+          @apply duration-300 text-white;
+        }
+
+        svg {
+          @apply duration-300;
+
+          height: 90px !important;
+        }
+
+        p {
+          @apply hidden;
+        }
+      }
+    }
+  }
+}
+
+.cardProjetos {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  height: 280px;
+  width: 100%;
+
+  .fontCard {
+    font-size: 1.3rem;
+  }
+}
+
+.cardProjetosOpcionais {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  height: 248px;
+  width: 100%;
+
+  .fontCard {
+    font-size: 1.3rem;
+  }
+}
+
+
+.hourFlex {
+  align-items: center !important;
+  display: flex !important;
+
+  margin-top: 12px !important;
+}

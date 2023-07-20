@@ -1,0 +1,39 @@
+/* sass-lint:disable hex-notation -- color valuess have to be defined somewhere...
+
+This is a two-tiered abstraction variable system.
+The descriptive variables in this file are used as values
+for the functional variables set in `_colors--custom.scss`.
+The variables in this file are used to easily identify colors
+by name, like red or blue. */
+
+$c-black:           #000;
+$c-white:           #fff;
+
+/* Grayscale, from dark to light */
+$c-lumen-05:        mix($c-white, $c-black, 5%);
+$c-lumen-10:        mix($c-white, $c-black, 10%);
+$c-lumen-15:        mix($c-white, $c-black, 15%);
+$c-lumen-20:        mix($c-white, $c-black, 20%);
+$c-lumen-25:        mix($c-white, $c-black, 25%);
+$c-lumen-30:        mix($c-white, $c-black, 30%);
+$c-lumen-35:        mix($c-white, $c-black, 35%);
+$c-lumen-40:        mix($c-white, $c-black, 40%);
+$c-lumen-45:        mix($c-white, $c-black, 45%);
+$c-lumen-50:        mix($c-white, $c-black, 50%);
+$c-lumen-55:        mix($c-white, $c-black, 55%);
+$c-lumen-60:        mix($c-white, $c-black, 60%);
+$c-lumen-65:        mix($c-white, $c-black, 65%);
+$c-lumen-70:        mix($c-white, $c-black, 70%);
+$c-lumen-75:        mix($c-white, $c-black, 75%);
+$c-lumen-80:        mix($c-white, $c-black, 80%);
+$c-lumen-85:        mix($c-white, $c-black, 85%);
+$c-lumen-90:        mix($c-white, $c-black, 90%);
+$c-lumen-95:        mix($c-white, $c-black, 95%);
+
+$c-tuna:            #333745;
+$c-paradiso:        #287d7d;
+$c-persian-green:   #00ada7;
+$c-gray:            $c-lumen-60;
+
+$c-attention-green: #43ac6a;
+$c-attention-red:   #e10000;

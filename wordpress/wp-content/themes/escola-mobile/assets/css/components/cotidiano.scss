@@ -1,0 +1,166 @@
+.containerCotidiano {
+  max-width: 1024px;
+  margin: 0 auto;
+
+  padding-bottom: 64px;
+
+  text-align: center;
+
+  h1 {
+    font-size: 64px;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 32px;
+  }
+
+  @media screen and (max-width: 568px) {
+    h1 {
+      font-size: 32px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+}
+
+.contentMainCalendar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+
+  @media screen and (max-width: 991px) {
+    flex-direction: column;
+  }
+}
+
+.contentMainCalendar__item {
+  margin-top: calc(45px + 1.5em);
+
+  @media screen and (max-width: 991px) {
+    display: flex;
+  }
+
+  @media screen and (max-width: 568px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 8px !important;
+  }
+
+  input[value=em]:checked {
+    background-color: #039BE5;
+    border: 1px solid #039BE5;
+  }
+
+  input[value=eii]:checked {
+    background-color: #A79B8E;
+    border: 1px solid #A79B8E;
+  }
+
+  input[value=eip]:checked {
+    background-color: #D81B60;
+    border: 1px solid #D81B60;
+  }
+
+  input[value=ef1i]:checked {
+    background-color: #F4511E;
+    border: 1px solid #F4511E;
+  }
+
+  input[value=ef1p]:checked {
+    background-color: #009688;
+    border: 1px solid #009688;
+  }
+
+  input[value=ef2i]:checked {
+    background-color: #8E24AA;
+    border: 1px solid #8E24AA;
+  }
+
+  input[value=ef2p]:checked {
+    background-color: #AD1457;
+    border: 1px solid #AD1457;
+  }
+}
+
+#calendar {
+  width: 75%;
+
+  @media screen and (max-width: 991px) {
+    width: 100% !important;
+  }
+}
+
+.display-f {
+  display: flex;
+  align-items: center;
+
+  margin: 0px 0px 8px 0px;
+
+  width: 100%;
+
+  h6 {
+    margin-left: 12px;
+  }
+
+  @media screen and (max-width: 991px) {
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    margin: 0px 8px 8px 0px;
+
+    h6 {
+      margin-left: 0px;
+    }
+  }
+
+  @media screen and (max-width: 568px) {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    width: auto;
+  }
+}
+
+.ball {
+  min-width: 16px;
+  min-height: 16px;
+
+  border-radius: 50%;
+
+  background: red;
+}
+.colorEm {
+  background-color: #039be5 !important;
+}
+.colorEInt {
+  background-color: #a79b8e !important;
+}
+.colorEIPar {
+  background-color: #d81b60 !important;
+}
+.colorInt1 {
+  background-color: #f4511e !important;
+}
+.colorPar1 {
+  background-color: #009688 !important;
+}
+.colorInt2 {
+  background-color: #8e24aa !important;
+}
+.colorPar2 {
+  background-color: #ad1457 !important;
+}
+.colorAll {
+  background-color: #616161 !important;
+}
+
+

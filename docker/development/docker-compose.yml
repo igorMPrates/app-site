@@ -1,0 +1,32 @@
+version: "3"
+services:
+  app-site:
+    container_name: app-site
+    image: wordpress:latest
+    restart: unless-stopped
+    volumes:
+      - ../../config/php.conf.ini:/usr/local/etc/php/conf.d/php.ini
+      - ../../wordpress/.htaccess:/var/www/html/.htaccess
+      - ../../wordpress/wp-content/themes/escola-mobile:/var/www/html/wp-content/themes/escola-mobile
+      - ../../wordpress/wp-content/plugins:/var/www/html/wp-content/plugins
+      - ../../wordpress/wp-content/uploads:/var/www/html/wp-content/uploads
+    depends_on:
+      - site-db
+    env_file:
+      - ../../.env.development
+    ports:
+      - "8080:80"
+
+  site-db:
+    container_name: site-db
+    image: mysql:8.0.29
+    volumes:
+      - ../../etc/app-site-db:/var/lib/mysql
+    restart: unless-stopped
+    env_file:
+      - ../../.env.development
+    ports:
+      - "3380:3306"
+
+volumes:
+  app-site-db: {}
