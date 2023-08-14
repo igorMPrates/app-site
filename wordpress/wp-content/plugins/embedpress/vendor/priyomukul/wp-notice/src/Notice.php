@@ -77,10 +77,11 @@ class Notice extends Base {
 	}
 
 	private function get_content(){
-		if( is_callable( $this->content ) ) {
+		if(is_callable($this->content)){
 			ob_start();
-			call_user_func( $this->content );
-			return ob_get_clean();
+			call_user_func($this->content);
+			$opt_in_content = ob_get_clean();
+			return $opt_in_content;
 		}
 		return $this->content;
 	}
@@ -89,12 +90,7 @@ class Notice extends Base {
 		if ( ! $force && ! $this->show() ) {
 			return;
 		}
-
 		$content = $this->get_content();
-		if( empty( $content ) ) {
-			return; // Return if notice is empty.
-		}
-
 		$links = $this->get_links();
 
 		// Print the notice.

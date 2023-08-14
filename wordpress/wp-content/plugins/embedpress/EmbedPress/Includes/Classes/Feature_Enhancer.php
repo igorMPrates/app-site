@@ -1,91 +1,20 @@
 <?php
 namespace EmbedPress\Includes\Classes;
 
-use \EmbedPress\Providers\Youtube;
-use EmbedPress\Shortcode;
-
 class Feature_Enhancer {
 
 	public function __construct() {
-		add_filter( 'embedpress:onAfterEmbed', [$this, 'enhance_youtube'], 90 );
-		add_filter( 'embedpress:onAfterEmbed', [$this, 'enhance_vimeo'], 90 );
-		add_filter( 'embedpress:onAfterEmbed', [$this, 'enhance_wistia'], 90 );
-		add_filter( 'embedpress:onAfterEmbed', [$this, 'enhance_twitch'], 90 );
-		add_filter( 'embedpress:onAfterEmbed', [$this, 'enhance_dailymotion'], 90 );
-		add_filter( 'embedpress:onAfterEmbed', [$this, 'enhance_soundcloud'], 90 );
-		add_filter( 'embedpress_gutenberg_youtube_params',
-			[$this, 'embedpress_gutenberg_register_block_youtube'] );
-		add_action( 'init', array( $this, 'embedpress_gutenberg_register_block_vimeo' ) );
-		add_action('embedpress_gutenberg_wistia_block_after_embed', array($this,'embedpress_wistia_block_after_embed'));
-		add_action( 'elementor/widget/embedpres_elementor/skins_init', [ $this, 'elementor_setting_init' ] );
-        add_action( 'wp_ajax_youtube_rest_api', [$this, 'youtube_rest_api'] );
-        add_action( 'embedpress_shortcode_embra_attrs', [$this, 'embra_attrs'], 10, 2 );
-        add_action( 'embedpress_gutenberg_embed', [$this, 'gutenberg_embed'], 10, 2 );
-        add_action( 'embedpress:isEmbra', [$this, 'isEmbra'], 10, 3 );
-	}
-
-    public function isEmbra($isEmbra, $url, $atts){
-		if(strpos( $url, 'youtube.com') !== false){
-			$youtube = new Youtube($url, $atts);
-			if($youtube->validateUrl($youtube->getUrl(false))){
-				return true;
-			}
-		}
-		return $isEmbra;
-    }
-
-    public function youtube_rest_api(){
-        $result = Youtube::get_gallery_page([
-            'playlistId'        => isset($_POST['playlistid']) ? sanitize_text_field($_POST['playlistid']) : null,
-            'pageToken'         => isset($_POST['pagetoken']) ? sanitize_text_field($_POST['pagetoken']) : null,
-            'pageSize'          => isset($_POST['pagesize']) ? sanitize_text_field($_POST['pagesize']) : null,
-            'columns'           => isset($_POST['epcolumns']) ? sanitize_text_field($_POST['epcolumns']) : null,
-            'showTitle'         => isset($_POST['showtitle']) ? sanitize_text_field($_POST['showtitle']) : null,
-            'showPaging'        => isset($_POST['showpaging']) ? sanitize_text_field($_POST['showpaging']) : null,
-            'autonext'          => isset($_POST['autonext']) ? sanitize_text_field($_POST['autonext']) : null,
-            'thumbplay'         => isset($_POST['thumbplay']) ? sanitize_text_field($_POST['thumbplay']) : null,
-            'thumbnail_quality' => isset($_POST['thumbnail_quality']) ? sanitize_text_field($_POST['thumbnail_quality']) : null,
-        ]);
-        wp_send_json($result);
-    }
-
-	public function gutenberg_embed($embedHTML, $attributes){
-		if(!empty($attributes['url'])){
-			$youtube = new Youtube($attributes['url']);
-			$is_youtube = $youtube->validateUrl($youtube->getUrl(false));
-			if($is_youtube){
-				$atts = [
-					'width'    => intval( $attributes['width']),
-					'height'   => intval( $attributes['height']),
-					'pagesize' => isset($attributes['pagesize']) ? intval($attributes['pagesize']) : 6,
-				];
-
-				$urlInfo = Shortcode::parseContent( $attributes['url'], true, $atts);
-				if(!empty($urlInfo->embed)){
-					$embedHTML = $urlInfo->embed;
-				}
-			}
-		}
-		return $embedHTML;
-	}
-	public function embra_attrs($emberaInstanceSettings, $attributes){
-        if ( isset( $attributes[ 'data-pagesize' ] ) ) {
-            $emberaInstanceSettings[ 'pageSize' ] = $attributes[ 'data-pagesize' ];
-            // unset( $attributes[ 'data-pagesize' ] );
-        }
-        if ( isset( $attributes[ 'data-thumbnail' ] ) ) {
-            $emberaInstanceSettings[ 'thumbnail' ] = $attributes[ 'data-thumbnail' ];
-            // unset( $attributes[ 'data-thumbnail' ] );
-        }
-        if ( isset( $attributes[ 'data-gallery' ] ) ) {
-            $emberaInstanceSettings[ 'gallery' ] = $attributes[ 'data-gallery' ];
-            // unset( $attributes[ 'data-gallery' ] );
-        }
-        if ( isset( $attributes[ 'data-hideprivate' ] ) ) {
-            $emberaInstanceSettings[ 'hideprivate' ] = $attributes[ 'data-hideprivate' ];
-            // unset( $attributes[ 'data-hideprivate' ] );
-        }
-		return $emberaInstanceSettings;
+			add_filter( 'embedpress:onAfterEmbed', [$this, 'enhance_youtube'], 90 );
+			add_filter( 'embedpress:onAfterEmbed', [$this, 'enhance_vimeo'], 90 );
+			add_filter( 'embedpress:onAfterEmbed', [$this, 'enhance_wistia'], 90 );
+			add_filter( 'embedpress:onAfterEmbed', [$this, 'enhance_twitch'], 90 );
+			add_filter( 'embedpress:onAfterEmbed', [$this, 'enhance_dailymotion'], 90 );
+			add_filter( 'embedpress:onAfterEmbed', [$this, 'enhance_soundcloud'], 90 );
+			add_filter( 'embedpress_gutenberg_youtube_params',
+				[$this, 'embedpress_gutenberg_register_block_youtube'] );
+			add_action( 'init', array( $this, 'embedpress_gutenberg_register_block_vimeo' ) );
+			add_action('embedpress_gutenberg_wistia_block_after_embed', array($this,'embedpress_wistia_block_after_embed'));
+			add_action( 'elementor/widget/embedpres_elementor/skins_init', [ $this, 'elementor_setting_init' ] );
 	}
 
 	public function elementor_setting_init(  ) {
@@ -194,7 +123,7 @@ class Feature_Enhancer {
 			unset($params['color']);
 		}
 		return apply_filters( 'embedpress_vimeo_params', $params);
-
+		
 	}
     //--- For CLASSIC AND BLOCK EDITOR
 	public function enhance_youtube( $embed )
@@ -532,20 +461,20 @@ class Feature_Enhancer {
 			// Parse the url to retrieve all its info like variables etc.
 			$url_full = $match[ 1 ];
 			$params = [
-				'ui-highlight'         => str_replace( '#', '', isset($options[ 'color' ]) ? $options[ 'color' ] : null ),
-				'mute'                 => (int) isset($options[ 'mute' ]) ? $options[ 'mute' ] : null,
-				'autoplay'             => (int) isset($options[ 'autoplay' ]) ? $options[ 'autoplay' ] : null,
-				'controls'             => (int) isset($options[ 'controls' ]) ? $options[ 'controls' ] : null,
-				'ui-start-screen-info' => (int) isset($options[ 'video_info' ]) ? $options[ 'video_info' ] : null,
+				'ui-highlight'         => str_replace( '#', '', $options[ 'color' ] ),
+				'mute'                 => (int) $options[ 'mute' ],
+				'autoplay'             => (int) $options[ 'autoplay' ],
+				'controls'             => (int) $options[ 'controls' ],
+				'ui-start-screen-info' => (int) $options[ 'video_info' ],
 				'endscreen-enable'     => 0,
 			];
 
-			if ( isset($options[ 'play_on_mobile' ]) && $options[ 'play_on_mobile' ] == '1' ) {
+			if ( $options[ 'play_on_mobile' ] == '1' ) {
 				$params[ 'playsinline' ] = 1;
 			}
-			$params['start'] = (int) isset($options[ 'start_time' ]) ? $options[ 'start_time' ] : null;
+			$params['start'] = (int) $options[ 'start_time' ];
 			if ( is_embedpress_pro_active() ) {
-				$params['ui-logo'] = (int) isset($options[ 'show_logo' ]) ? $options[ 'show_logo' ] : null;
+				$params['ui-logo'] = (int) $options[ 'show_logo' ];
 			}
 
 			$url_modified = $url_full;
@@ -639,7 +568,7 @@ class Feature_Enhancer {
 			</div>
 		<?php
 		endif;
-
+		
 		return apply_filters( 'embedpress_gutenberg_block_markup', ob_get_clean());
 	}
 	public function get_youtube_settings_schema() {

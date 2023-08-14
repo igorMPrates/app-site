@@ -4,39 +4,29 @@
 	$( function() {
 		// initialize color picker
 		$( '.cn_color' ).wpColorPicker();
-
-		// purge cache
+		
 		$( '#cn_app_purge_cache a' ).on( 'click', function( e ) {
 			e.preventDefault();
-
+			
 			var el = this;
-
+			
 			$( el ).parent().addClass( 'loading' ).append( '<span class="spinner is-active" style="float: none;"></span>' );
-
-			var ajaxArgs = {
-				action: 'cn_purge_cache',
-				nonce: cnArgs.nonce
-			};
-
-			// network area?
-			if ( cnArgs.network === '1' )
-				ajaxArgs.cn_network = 1;
-
+			
 			$.ajax( {
 				url: cnArgs.ajaxURL,
 				type: 'POST',
 				dataType: 'json',
-				data: ajaxArgs
-			} ).done( function( result ) {
+				data: {
+					action: 'cn_purge_cache',
+					nonce: cnArgs.nonce
+				}
+			} )
+			.done ( function ( result ) {
 				console.log( result );
-			} ).always( function( result ) {
+			} )
+			.always ( function ( result ) {
 				$( el ).parent().find( '.spinner' ).remove();
 			} );
-		} );
-
-		// global override
-		$( 'input[name="cookie_notice_options[global_override]"]' ).on( 'change', function() {
-			$( '.cookie-notice-settings form' ).toggleClass( 'cn-options-disabled' );
 		} );
 
 		// refuse option
@@ -46,7 +36,7 @@
 			else
 				$( '#cn_refuse_opt_container' ).slideUp( 'fast' );
 		} );
-
+		
 		// revoke option
 		$( '#cn_revoke_cookies' ).on( 'change', function() {
 			if ( $( this ).is( ':checked' ) )
@@ -83,8 +73,7 @@
 				} );
 			}
 		} );
-
-		// script blocking
+		
 		$( '#cn_refuse_code_fields' ).find( 'a' ).on( 'click', function( e ) {
 			e.preventDefault();
 

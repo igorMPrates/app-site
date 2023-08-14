@@ -1,5 +1,4 @@
 jQuery(document).ready(function ($) {
-	
   const admissao = {
     step: 1,
     nextStep() {

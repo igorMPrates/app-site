@@ -620,3 +620,9 @@ html {
 .bold {
   font-weight: bold;
 }
+
+@media screen and (max-width: 768px) {
+  .studentAprove .student-item {
+    max-width: none !important;
+  }
+}

@@ -17,8 +17,6 @@
  * Author URI: http://athlan.pl/
  */
 
-
-
 use WL\Theme;
 
 define( 'WL_VERSION', wp_get_theme()->version );
@@ -100,21 +98,3 @@ if ( function_exists( 'acf_add_options_page' ) ) {
 		)
 	);
 };
-
-add_action('admin_head', 'css_interno');
-function css_interno(){
-echo '<style>
-.notice.notice-error {
-    display: none;
-}
-
-.notice.notice-warning {
-    display: none;
-}
-
-div#rank_math_pro_notice {
-    display: none;
-}
-</style>';
-}
-

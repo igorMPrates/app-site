@@ -1,0 +1,326 @@
+Jun 04 2021 14:08:42
+{"Number":8,"Message":"mysqli_query(): send of 95 bytes failed with errno=104 Connection reset by peer","File":"\/home\/u120091592\/domains\/ipirafm.com.br\/public_html\/wp-includes\/wp-db.php","Line":2033}
+
+Jun 04 2021 14:08:42
+{"Number":2,"Message":"Error while sending QUERY packet. PID=33810","File":"\/home\/u120091592\/domains\/ipirafm.com.br\/public_html\/wp-includes\/wp-db.php","Line":2033}
+
+Jun 04 2021 14:20:47
+{"Number":8,"Message":"mysqli_query(): send of 95 bytes failed with errno=104 Connection reset by peer","File":"\/home\/u120091592\/domains\/ipirafm.com.br\/public_html\/wp-includes\/wp-db.php","Line":2033}
+
+Jun 04 2021 14:20:47
+{"Number":2,"Message":"Error while sending QUERY packet. PID=37622","File":"\/home\/u120091592\/domains\/ipirafm.com.br\/public_html\/wp-includes\/wp-db.php","Line":2033}
+
+Jun 04 2021 14:27:13
+{"Number":8,"Message":"mysqli_query(): send of 95 bytes failed with errno=104 Connection reset by peer","File":"\/home\/u120091592\/domains\/ipirafm.com.br\/public_html\/wp-includes\/wp-db.php","Line":2033}
+
+Jun 04 2021 14:27:13
+{"Number":2,"Message":"Error while sending QUERY packet. PID=22248","File":"\/home\/u120091592\/domains\/ipirafm.com.br\/public_html\/wp-includes\/wp-db.php","Line":2033}
+
+Jun 30 2021 14:33:55
+{"Number":8,"Message":"mysqli_query(): send of 189 bytes failed with errno=104 Connection reset by peer","File":"\/home\/u120091592\/domains\/ipirafm.com.br\/public_html\/wp-includes\/wp-db.php","Line":2033}
+
+Jun 30 2021 14:33:55
+{"Number":2,"Message":"Error while sending QUERY packet. PID=32846","File":"\/home\/u120091592\/domains\/ipirafm.com.br\/public_html\/wp-includes\/wp-db.php","Line":2033}
+
+Jun 30 2021 14:47:36
+{"Number":8,"Message":"mysqli_query(): send of 40 bytes failed with errno=104 Connection reset by peer","File":"\/home\/u120091592\/domains\/ipirafm.com.br\/public_html\/wp-includes\/wp-db.php","Line":2033}
+
+Jun 30 2021 14:47:36
+{"Number":2,"Message":"Error while sending QUERY packet. PID=7641","File":"\/home\/u120091592\/domains\/ipirafm.com.br\/public_html\/wp-includes\/wp-db.php","Line":2033}
+
+Jun 30 2021 14:50:32
+{"Number":8,"Message":"mysqli_query(): send of 40 bytes failed with errno=104 Connection reset by peer","File":"\/home\/u120091592\/domains\/ipirafm.com.br\/public_html\/wp-includes\/wp-db.php","Line":2033}
+
+Jun 30 2021 14:50:32
+{"Number":2,"Message":"Error while sending QUERY packet. PID=15231","File":"\/home\/u120091592\/domains\/ipirafm.com.br\/public_html\/wp-includes\/wp-db.php","Line":2033}
+
+Jun 30 2021 15:11:24
+{"Number":8,"Message":"mysqli_query(): send of 95 bytes failed with errno=104 Connection reset by peer","File":"\/home\/u120091592\/domains\/ipirafm.com.br\/public_html\/wp-includes\/wp-db.php","Line":2033}
+
+Jun 30 2021 15:11:24
+{"Number":2,"Message":"Error while sending QUERY packet. PID=15501","File":"\/home\/u120091592\/domains\/ipirafm.com.br\/public_html\/wp-includes\/wp-db.php","Line":2033}
+
+<<<<<<< HEAD
+Jul 05 2022 12:01:25
+{"Number":8,"Message":"unserialize(): Error at offset 638 of 645 bytes","File":"\/var\/www\/escolamobile.com.br\/public\/wp-includes\/functions.php","Line":651}
+
+Jul 05 2022 12:01:25
+{"Number":8,"Message":"unserialize(): Error at offset 638 of 645 bytes","File":"\/var\/www\/escolamobile.com.br\/public\/wp-includes\/functions.php","Line":651}
+
+Jul 05 2022 12:13:27
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/uploads\/2022\/06\/2.-patio-de-entrada.mp4): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:30
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/page-trabalhe-conosco.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:30
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/page-home.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:30
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/page-processo-admissao.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:30
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/header.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:30
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/vendor\/autoload.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:30
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/vendor\/symfony\/console\/DependencyInjection\/AddConsoleCommandPass.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:30
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/vendor\/symfony\/console\/Tester\/ApplicationTester.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:30
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/vendor\/symfony\/service-contracts\/ServiceSubscriberTrait.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:30
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/vendor\/symfony\/string\/Inflector\/FrenchInflector.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:30
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/vendor\/symfony\/translation-contracts\/Test\/TranslatorTest.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:30
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/vendor\/composer\/installed.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:30
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/vendor\/composer\/installed.json): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:30
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/vendor\/composer\/autoload_real.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:30
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/vendor\/composer\/autoload_static.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:31
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/page-a-escola.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:31
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/yarn.lock): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:31
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/assets\/css\/components\/owl-carousel.scss): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:31
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/assets\/css\/components\/projetos.scss): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:31
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/assets\/js\/modules\/cicles.js): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:31
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/assets\/js\/modules\/school-navigation.js): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:31
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/assets\/js\/modules\/owl-carousel.js): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:31
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/assets\/js\/modules\/works.js): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:31
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/assets\/js\/modules\/accordion.js): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:31
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/assets\/js\/modules\/form.js): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:31
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/assets\/js\/modules\/interesse-get-series.js): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:31
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/assets\/js\/modules\/inscricao.js): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:31
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/page-nossa-historia.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:31
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/footer.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:31
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/dist\/main.css): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:31
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/dist\/main.js): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:31
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/page-aprovados.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:31
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/page-estudos-internacionais.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:31
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/composer.lock): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:31
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/single.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:31
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/node_modules\/.yarn-integrity): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:32
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/template-parts\/blocks\/cicles-primary.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:32
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/template-parts\/blocks\/cicles-content.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:32
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/template-parts\/blocks\/mobile-midia.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:32
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/template-parts\/content\/estudo-dirigido.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:32
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/template-parts\/content\/acontece-mobile.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:33
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/.editorconfig): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:33
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/.gitlab-ci.yml): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:33
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/.gitignore): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 05 2022 12:13:33
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/README.md): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:36
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/uploads\/2022\/06\/2.-patio-de-entrada.mp4): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:37
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/page-trabalhe-conosco.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:37
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/page-home.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:37
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/page-processo-admissao.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:37
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/header.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:37
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/vendor\/autoload.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:37
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/vendor\/symfony\/console\/DependencyInjection\/AddConsoleCommandPass.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:37
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/vendor\/symfony\/console\/Tester\/ApplicationTester.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:37
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/vendor\/symfony\/service-contracts\/ServiceSubscriberTrait.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:37
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/vendor\/symfony\/string\/Inflector\/FrenchInflector.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:37
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/vendor\/symfony\/translation-contracts\/Test\/TranslatorTest.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:37
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/vendor\/composer\/installed.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:37
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/vendor\/composer\/installed.json): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:37
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/vendor\/composer\/autoload_real.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:37
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/vendor\/composer\/autoload_static.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:38
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/page-a-escola.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:38
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/yarn.lock): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:38
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/assets\/css\/components\/owl-carousel.scss): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:38
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/assets\/css\/components\/projetos.scss): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:38
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/assets\/js\/modules\/cicles.js): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:38
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/assets\/js\/modules\/school-navigation.js): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:38
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/assets\/js\/modules\/owl-carousel.js): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:38
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/assets\/js\/modules\/works.js): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:38
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/assets\/js\/modules\/accordion.js): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:38
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/assets\/js\/modules\/form.js): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:38
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/assets\/js\/modules\/interesse-get-series.js): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:38
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/assets\/js\/modules\/inscricao.js): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:38
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/page-nossa-historia.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:38
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/footer.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:38
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/dist\/main.css): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:38
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/dist\/main.js): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:38
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/page-aprovados.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:38
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/page-estudos-internacionais.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:38
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/composer.lock): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:38
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/single.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:38
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/node_modules\/.yarn-integrity): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:39
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/template-parts\/blocks\/cicles-primary.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:39
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/template-parts\/blocks\/cicles-content.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:39
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/template-parts\/blocks\/mobile-midia.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:39
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/template-parts\/content\/estudo-dirigido.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:39
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/themes\/escola-mobile\/template-parts\/content\/acontece-mobile.php): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:39
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/.editorconfig): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:40
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/.gitlab-ci.yml): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:40
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/.gitignore): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+
+Jul 06 2022 22:31:40
+{"Number":2,"Message":"fopen(\/var\/www\/escolamobile.com.br\/public\/wp-content\/README.md): failed to open stream: Permission denied","File":"\/var\/www\/escolamobile.com.br\/public\/wp-content\/plugins\/All-In-One-WP-Migration-With-Import\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":422}
+=======
+Jul 07 2022 17:42:18
+{"Number":8,"Message":"unserialize(): Error at offset 278 of 282 bytes","File":"C:\\inetpub\\wwwroot\\escolamobile.com.br\\wp-includes\\functions.php","Line":651}
+
+Jul 07 2022 17:42:18
+{"Number":8,"Message":"unserialize(): Error at offset 278 of 282 bytes","File":"C:\\inetpub\\wwwroot\\escolamobile.com.br\\wp-includes\\functions.php","Line":651}
+>>>>>>> 1c4dfc8f6fc4c38582e3db5c8d0173beacf791b0
+

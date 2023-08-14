@@ -77,7 +77,6 @@ class Core {
         $this->loaderInstance = new Loader();
 
         add_action('admin_notices',[$this,'embedpress_admin_notice']);
-
     }
 
     /**

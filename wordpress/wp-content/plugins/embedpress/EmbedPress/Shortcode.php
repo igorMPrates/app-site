@@ -102,7 +102,7 @@ class Shortcode {
      * @param string      The raw content that will be replaced.
      * @param bool $stripNewLine
      * @param array $customAttributes
-     * @return  string|object
+     * @return  string
      * @since   1.0.0
      * @static
      */
@@ -130,8 +130,7 @@ class Shortcode {
 	        self::set_embera_settings(self::$ombed_attributes);
 
             // Identify what service provider the shortcode's link belongs to
-            $is_embra_provider = apply_filters('embedpress:isEmbra', false, $url, self::get_embera_settings());
-	        if ( $is_embra_provider || (strpos( $url, 'meetup.com') !== false) || (strpos( $url, 'sway.office.com') !== false) ) {
+	        if ( (strpos( $url, 'meetup.com') !== false) || (strpos( $url, 'sway.office.com') !== false) ) {
 		        $serviceProvider = '';
 			}else{
 		        $serviceProvider = self::get_oembed()->get_provider( $url );
@@ -143,7 +142,7 @@ class Shortcode {
             $urlData = self::get_url_data( $url, self::$ombed_attributes, $serviceProvider);
 
             // Sanitize the data
-            $urlData = self::sanitizeUrlData( $urlData, $url );
+            $urlData = self::sanitizeUrlData( $urlData );
 
             // Stores the original content
             if ( is_object( $urlData ) ) {
@@ -171,7 +170,7 @@ class Shortcode {
             $provider_name = self::get_provider_name($urlData, $url);
 	        $embedTemplate = '<div ' . implode( ' ', $attributesHtml ) . '>{html}</div>';
 
-	        $parsedContent = self::get_content_from_template($url, $embedTemplate, $serviceProvider);
+	        $parsedContent = self::get_content_from_template($url, $embedTemplate);
 	        // Replace all single quotes to double quotes. I.e: foo='joe' -> foo="joe"
 	        $parsedContent = str_replace( "'", '"', $parsedContent );
 	        $parsedContent = str_replace( "{provider_alias}", $provider_name , $parsedContent );
@@ -280,7 +279,6 @@ KAMAL;
                     'embed'      => $parsedContent,
                     'url'        => $url,
                 ] );
-                // print_r($embed);die;
                 $embed = self::modify_spotify_content( $embed);
                 $embed = apply_filters( 'embedpress:onAfterEmbed', $embed );
                 return $embed;
@@ -336,9 +334,7 @@ KAMAL;
 			}
 			self::$embera_instance = new Embera( self::get_embera_settings(), self::get_collection() );
     	}
-        else{
-            self::$embera_instance->setConfig(self::get_embera_settings());
-        }
+
 		return self::$embera_instance;
     }
 
@@ -516,8 +512,6 @@ KAMAL;
 			}
 		}
 
-        self::$emberaInstanceSettings = apply_filters('embedpress_shortcode_embra_attrs', self::$emberaInstanceSettings, $attributes);
-
     }
 
 	protected static function get_embera_settings() {
@@ -589,12 +583,12 @@ KAMAL;
      * @static
      *
      */
-    private static function sanitizeUrlData( $data, $url = '' ) {
+    private static function sanitizeUrlData( $data ) {
         if ( is_object( $data ) ) {
             $attributes = get_object_vars( $data );
 
             foreach ( $attributes as $key => $value ) {
-                if ( substr_count( $key, '-' ) && $key !== $url ) {
+                if ( substr_count( $key, '-' ) ) {
                     unset( $data->$key );
 
                     $key = str_replace( '-', '_', $key );
@@ -603,7 +597,7 @@ KAMAL;
             }
         } elseif ( is_array( $data ) ) {
             foreach ( $data as $key => $value ) {
-                if ( substr_count( $key, '-' ) && $key !== $url ) {
+                if ( substr_count( $key, '-' ) ) {
                     unset( $data[ $key ] );
 
                     $key = str_replace( '-', '_', $key );
@@ -636,7 +630,7 @@ KAMAL;
 		return ob_get_clean();
     }
 
-	protected static function get_content_from_template( $url, $template, $serviceProvider ) {
+	protected static function get_content_from_template( $url, $template ) {
 		if ( is_embedpress_pro_active() ) {
 			if ( strpos( $url, 'podcasts.apple.com') ) {
 				$iframe_url = str_replace( 'podcasts.apple.com', 'embed.podcasts.apple.com', $url);
@@ -646,7 +640,7 @@ KAMAL;
 			}
 		}
 
-		if ( empty($serviceProvider) ) {
+		if ( (strpos( $url, 'meetup.com') !== false) || (strpos( $url, 'sway.office.com') !== false)  ) {
 			$html = '';
 		}else{
 			$html = self::get_oembed()->get_html( $url, self::get_oembed_attributes() );

@@ -204,27 +204,6 @@ class Embedpress_Elementor extends Widget_Base {
 				'condition'   => $yt_condition,
 			]
 		);
-	    $this->add_control(
-		    'pagesize',
-		    [
-			    'label'       => __( 'Video Per Page', 'embedpress' ),
-			    'description' => __( 'Specify the number of videos you wish to show on each page. Note: This option takes effect only when a YouTube channel is embedded.', 'embedpress' ),
-			    'type'        => Controls_Manager::NUMBER,
-			    'label_block' => false,
-			    'default'     => 6,
-			    'min'         => 1,
-			    'max'         => 50,
-			    'conditions'  => [
-					'terms' => [
-						[
-							'name' => 'embedpress_pro_embeded_source',
-							'operator' => '===',
-							'value' => 'youtube',
-						],
-					],
-			    ]
-		    ]
-	    );
 		$this->add_control(
 			'embedpress_pro_youtube_auto_play',
 			[
@@ -1315,24 +1294,6 @@ class Embedpress_Elementor extends Widget_Base {
 		);
 		$this->end_controls_section();
 	}
-
-	public function render_plain_content() {
-		$args = "";
-        $settings      = $this->get_settings_for_display();
-
-		if(!empty( $settings['height']['size'] )){
-			$args .= "height='{$settings['height']['size']}' ";
-		}
-		if(!empty( $settings['width']['size'] )){
-			$args .= "width='{$settings['width']['size']}' ";
-		}
-		if(!empty( $settings['pagesize'] )){
-			$args .= "pagesize='{$settings['pagesize']}' ";
-		}
-		$args = trim($args);
-		echo "[embedpress $args]{$settings['embedpress_embeded_link']}\[/embedpress]";
-	}
-
     protected function render() {
         add_filter( 'embedpress_should_modify_spotify', '__return_false');
         $settings      = $this->get_settings_for_display();
@@ -1343,10 +1304,8 @@ class Embedpress_Elementor extends Widget_Base {
             ? $settings['height']['size'] : null;
 	    $width = (!empty( $settings['width']) && !empty( $settings['width']['size'] ))
 		    ? $settings['width']['size'] : null;
-	    $pagesize = (!empty( $settings['pagesize']) && !empty( $settings['pagesize'] ))
-		    ? $settings['pagesize'] : 6;
 
-        $embed_content = Shortcode::parseContent( $settings['embedpress_embeded_link'], true, [ 'height'=> $height, 'width'=>$width, 'pagesize'=>$pagesize ] );
+        $embed_content = Shortcode::parseContent( $settings['embedpress_embeded_link'], true, [ 'height'=> $height, 'width'=>$width ] );
         $embed_content = $this->onAfterEmbedSpotify($embed_content, $settings);
         $embed         = apply_filters( 'embedpress_elementor_embed', $embed_content, $settings );
         $content       = is_object( $embed ) ? $embed->embed : $embed;

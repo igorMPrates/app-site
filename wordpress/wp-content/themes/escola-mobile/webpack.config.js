@@ -61,7 +61,7 @@ const config = {
     ],
   },
   output: {
-    filename: "[name].min.js",
+    filename: `[name].js`,
     path: path.resolve(__dirname, "dist"),
   },
   mode: process.env.NODE_ENV,
@@ -132,7 +132,7 @@ const config = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: "[name].css",
+      filename: `[name].css`,
     }),
     new CopyWebpackPlugin([
       {

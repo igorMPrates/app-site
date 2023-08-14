@@ -52,7 +52,7 @@ $video = explode( '?', $video[4] );
 			<path d="M31.9372 1.47048C19.2594 -1.92652 5.20554 4.64183 1.20991 19.5537C-1.34152 29.0758 3.05312 42.2563 14.3556 59.117C15.2379 60.4125 16.9584 60.8735 18.3702 60.1928C36.5587 51.2341 46.9548 42.0167 49.5062 32.4947C53.5018 17.5828 44.615 4.86748 31.9372 1.47048ZM23.9139 31.4141C20.5935 30.5244 18.5989 27.1015 19.4815 23.8077C20.3641 20.5139 23.8028 18.5469 27.1232 19.4366C30.4436 20.3263 32.4381 23.7492 31.5556 27.043C30.673 30.3368 27.2342 32.3037 23.9139 31.4141Z" fill="white" />
 		</svg>
 		<div class="map-item px-10 py-5 flex items-center bg-white rounded-lg mt-5">
-			<span class="text-4xl font-bold text-pink-100">48</span>
+			<span class="text-4xl font-bold text-pink-100">80</span>
 			<p class="px-10">Universidades </p>
 			<img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/dist/images/usa.png">
 		</div>
@@ -80,7 +80,19 @@ $video = explode( '?', $video[4] );
 		</div>
 	</div>
 
-	<img class="w-full h-auto hidden sm:block" src="<?php echo get_template_directory_uri(); ?>/dist/images/international-desktop.png">
+	<div class="absolute map-location map-4">
+		<svg width="37" height="43" viewBox="0 0 37 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M27.595 2.90511C19.2046 -1.85057 7.99645 0.227844 2.4027 10.0969C-1.1692 16.3987 -0.475714 26.5846 4.45196 40.6628C4.84042 41.747 5.97912 42.3924 7.10892 42.1687C21.699 39.1531 30.7943 34.5156 34.3662 28.2137C39.9599 18.3447 35.9854 7.66079 27.595 2.90511ZM16.3626 22.7224C14.1651 21.4769 13.3781 18.6742 14.6137 16.4943C15.8492 14.3144 18.6581 13.5499 20.8556 14.7955C23.0531 16.041 23.8401 18.8436 22.6045 21.0235C21.369 23.2034 18.5601 23.9679 16.3626 22.7224Z" fill="white" />
+		</svg>
+		<div class="map-item px-10 py-5 flex items-center bg-white rounded-lg -ml-96 lg:ml-0 mt-5">
+			<span class="text-4xl font-bold text-primary-100">99</span>
+			<p class="px-10">Universidades </p>
+			<img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/dist/images/portugal.png">
+		</div>
+	</div>
+
+
+	<img class="w-full h-auto hidden sm:block" src="<?php echo get_template_directory_uri(); ?>/dist/images/banner.png">
 	<img class="w-full h-auto sm:hidden" src="<?php echo get_template_directory_uri(); ?>/dist/images/international-mobile.png">
 </div>
 

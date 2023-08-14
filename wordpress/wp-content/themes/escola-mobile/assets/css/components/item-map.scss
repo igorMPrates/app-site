@@ -12,8 +12,8 @@
   }
 
   &.map-1 {
-    left: 22%;
-    top: 37%;
+    left: 28%;
+    top: 48%;
   }
 
   &.map-2 {
@@ -26,11 +26,16 @@
     top: 48%;
   }
 
+  &.map-4 {
+    left: 69%;
+    top: 64%;
+  }
+
   @media (max-width: 640px) {
     &.map-1 {
       height: auto !important;
-      left: 15%;
-      top: 37%;
+      left: 16%;
+      top: 43%;
     }
 
     &.map-2 {
@@ -51,6 +56,12 @@
       .map-item {
         margin-left: -130px;
       }
+    }
+
+    &.map-4 {
+      height: auto !important;
+      left: 76%;
+      top: 64%;
     }
   }
 

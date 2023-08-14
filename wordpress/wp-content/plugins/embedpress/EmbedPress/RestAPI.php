@@ -36,7 +36,6 @@ class RestAPI
 		$atts = [
 			'width' => intval( $request->get_param('width')),
 			'height' => intval( $request->get_param('height')),
-			'pagesize' => intval( $request->get_param('pagesize')),
 		];
 
         if (empty($url)) {

@@ -90,9 +90,6 @@ class Meetup extends ProviderAdapter implements ProviderInterface
 		$header_dom = $dom->find('div[data-event-label="top"]', 0);
 		$body_dom = $dom->find('div[data-event-label="body"]', 0);
 		$event_location_info = $dom->find( 'div[data-event-label="info"] .sticky', 0);
-		if(empty($header_dom) || empty($body_dom) || empty($event_location_info)){
-			return [];
-		}
 		$dewqijm = $event_location_info->find('.dewqijm', 0)->find('span', 0);
 		$img = $dewqijm->find('noscript', 0)->innertext();
 		$dewqijm->removeChild($dewqijm->find('img', 1));
@@ -104,26 +101,12 @@ class Meetup extends ProviderAdapter implements ProviderInterface
 		$title = $this->embedpress_get_markup_from_node($header_dom->find('h1', 0));
 		$emrv9za = $body_dom->find('div.emrv9za', 0);
 		$picture = $emrv9za->find('picture[data-testid="event-description-image"]', 0);
-		if(!empty($picture) && $picture->find('img', 0)){
-			if($picture->find('noscript', 0)){
-				$picture->find('img', 0)->remove();
-				$img = $picture->find('noscript', 0)->innertext();
-				$img = str_replace('/_next/image/', 'https://www.meetup.com/_next/image/', $img);
-				$picture->find('noscript', 0)->remove();
-				$span = $picture->find('div', 0)->find('span', 0);
-				$span->outertext = $span->makeup() . $span->innertext . $img . '</span>';
-			}
-			else{
-				$img = $picture->find('img', 0);
-				$src = $img->src;
-				if($src && strpos($src, '/_next/image/') === 0){
-					$img->src = 'https://www.meetup.com' . $img->src;
-				}
-				else if($srcset = $img->srcset){
-					$img->src = 'https://www.meetup.com' . $this->getLargestImage($srcset);
-				}
-			}
-		}
+		$picture->find('img', 0)->remove();
+		$img = $picture->find('noscript', 0)->innertext();
+		$img = str_replace('/_next/image/', 'https://www.meetup.com/_next/image/', $img);
+		$picture->find('noscript', 0)->remove();
+		$span = $picture->find('div', 0)->find('span', 0);
+		$span->outertext = $span->makeup() . $span->innertext . $img . '</span>';
 
 		$content = $this->embedpress_get_markup_from_node( $emrv9za ) ;
 
@@ -183,7 +166,7 @@ class Meetup extends ProviderAdapter implements ProviderInterface
 			}
 
 			.ep-event-header .ep-event--host .flex div {
-				line-height: 1.3 !important;
+				line-height: 1.3 !important; 
 			}
 			.ep-event-header .ep-event--host img {
 				border-radius: 50%;
@@ -205,7 +188,7 @@ class Meetup extends ProviderAdapter implements ProviderInterface
 			.embedpress-event aside .sticky .hidden {
 				display: block;
 			}
-			.embedpress-event aside .sticky .hidden,
+			.embedpress-event aside .sticky .hidden, 
 			.embedpress-event aside .sticky .hidden + div {
 				flex: 0 0 calc(50% - 15px);
 			}
@@ -272,21 +255,6 @@ class Meetup extends ProviderAdapter implements ProviderInterface
 			return '';
 		}
 		return '';
-	}
-
-	function getLargestImage($srcsetString){
-		$images = array();
-		// split on comma
-		$srcsetArray = explode(",", $srcsetString);
-		foreach($srcsetArray as $srcString){
-			// split on whitespace - optional descriptor
-			$imgArray = explode(" ", trim($srcString));
-			// cast w or x descriptor as an Integer
-			$images[(int)$imgArray[1]] = $imgArray[0];
-		}
-		// find the max
-		$maxIndex = max(array_keys($images));
-		return $images[$maxIndex];
 	}
 
 }

@@ -84,10 +84,19 @@ if ( isset( $_GET['international'] ) ) :
 					<p class="text-lg font-light font-light">McGill University</p>
 					<p class="text-lg font-light font-light">The Art Institute of Vancouver</p>
 					<p class="text-lg font-light font-light">University of British Columbia</p>
+					<p class="text-lg font-light font-light">British Columbia Institute of Technology</p>
+					<p class="text-lg font-light font-light">Carleton University</p>
+					<p class="text-lg font-light font-light">Laurentian University</p>
+					<p class="text-lg font-light font-light">University of Guelph</p>
+					<p class="text-lg font-light font-light">University of Manitoba</p>
 				</div>
-				<div class="pb-8">
+				<div class="pb-8 border-b border-dark">
 					<h1 class="mt-13 text-lg font-light font-semibold">França</h1>
 					<p class="text-lg font-light font-light">American University of Paris</p>
+				</div>
+				<div class="pb-8">
+					<h1 class="mt-13 text-lg font-light font-semibold">Espanha</h1>
+					<p class="text-lg font-light font-light">IE University</p>
 				</div>
 			</div>
 
@@ -159,6 +168,12 @@ if ( isset( $_GET['international'] ) ) :
 					<p class="text-lg font-light font-light">Pomona College</p>
 					<p class="text-lg font-light font-light">Purdue University</p>
 					<p class="text-lg font-light font-light">Relativity School</p>
+					<p class="text-lg font-light font-light">Drexel University</p>
+					<p class="text-lg font-light font-light">Drew University</p>
+					<p class="text-lg font-light font-light">Florida Institute of Technology</p>
+					<p class="text-lg font-light font-light">Pennsylvania State University</p>
+					<p class="text-lg font-light font-light">Saint Louis University</p>
+					<p class="text-lg font-light font-light">University of Colorado Denver</p>
 				</div>
 				<div class="flex flex-col justify-start w-1/3 items-start">
 					<p class="md:mt-40 text-lg font-light font-light">Richmond University</p>
